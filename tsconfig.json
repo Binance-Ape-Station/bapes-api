@@ -1,0 +1,18 @@
+{
+	"compilerOptions": {
+		"baseUrl": ".",
+		"esModuleInterop": true,
+		"allowSyntheticDefaultImports": true,
+		"emitDecoratorMetadata": true,
+		"module": "commonjs",
+		"allowJs": true,
+		"target": "es2017",
+		"outDir": "dist",
+		"strictNullChecks": false,
+		"experimentalDecorators": true,
+		"types": ["reflect-metadata"],
+		"sourceMap": true,
+		"skipLibCheck": true
+	},
+		"exclude": ["node_modules/", "__tests__/", "dist", "ecosystem.config.js"]
+}
